@@ -1,0 +1,27 @@
+.sepet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.icon1:hover{
+    cursor: pointer;
+}
+.icon2{
+    font-size: 35px;
+    
+    justify-content: center;
+
+}   
+.icon3{
+    font-size: 25px;
+}
+.icon3:hover{
+    cursor: pointer;
+}

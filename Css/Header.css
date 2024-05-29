@@ -1,0 +1,53 @@
+.logo{
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.logoText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.between{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 10px;
+
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+#root{
+    height: 100vh;
+}

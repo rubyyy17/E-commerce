@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.sepet{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sepetTitle{
+    margin-right: 20px;
+    width: 320px;
+}
+
+.sepetremove{
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(226, 64, 64);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 10px;
+    text-align: center;
+    
+    
+}
+.sepetremove:hover{
+    cursor: pointer;
+}
